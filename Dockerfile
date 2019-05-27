@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:edge
 
 ENV VPN_URL      https://YOUR-CORPORATE-PULSES-ECURE-VPN.URL/dana-na/auth/url_default/welcome.cgi
 ENV VPN_OPTIONS  --disable-ipv6 --protocol=nc --os=linux
